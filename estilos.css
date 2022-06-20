@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+}
+
+.index{
+    background-image: url(rafa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-items: flex-start;
+    color: black;
+    text-align: center;
+    background-color: rgb(128, 128, 255);
+}
+
+.principal__titulo{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.principal__parrafo{
+    font-size: 20px;    
+}
+
+.principal__boton{
+    width: 130px;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(240, 181, 70);
+    color: black;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.redes_sociales{
+    color: white;
+    background-color: rgb(182, 249, 154);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.redes_sociales__logo{
+    width: 50px;
+    margin-left: 15px;
+}
+
+.menu{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu__lista{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+.menu__texto{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-left: 50px;
+}
+
+.menu__link{
+    text-decoration: none;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: black;
+    text-align: center;
+    background-color: rgb(172, 219, 248);
+}
+
+.main{
+    display: flex ;
+    align-items:center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.footer__texto{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.yo__h1{
+    text-align: center;
+}
+
+.yo__img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.baki__h1{
+    text-align: center;
+}
+
+.contenedorcards{
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.card{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 20%;
+    height: 350px;
+    text-align: center;
+    margin: 0 50px;
+
+}
+
+.cardimg{
+    width: 90%;
+    margin-top: 5px;
+}
+
+.imgbaki{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.index1{
+    margin-left: 200px;
+    margin-bottom: 300px;
+    background-color: rgba(255, 255, 255, 0.461);
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+
+.articulo{
+    margin-top: 60px;
+}
+
+.secu{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    align-items: flex-start;
+    color: black;
+    text-align: center;
+    background-color: rgb(255, 247, 128);
+}
+
+.secu__titulo{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.secu__parrafo{
+    font-size: 20px;
+}
+
+.tarjeta{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 30%;
+}
+
+.tarjeta__img{
+    border-radius: 50%;
+}
+
+.scont{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.scont1{
+    display: flex;
+    text-align: center;
+}
